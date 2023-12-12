@@ -1,5 +1,2 @@
-*
-!.gitignore
-!issue.lua
-!Makefile
-!README.md
+nvim-issue
+.repro
