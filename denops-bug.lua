@@ -42,3 +42,4 @@ vim.opt.ambiwidth = "double"
 -- denops-translate
 vim.g.translate_source = "en"
 vim.g.translate_target = "ja"
+vim.g.translate_border_chars = { "+", "-", "+", "|", "+", "-", "+", "|" }
