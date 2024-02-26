@@ -17,6 +17,9 @@ vim.opt.runtimepath:prepend(lazypath)
 local plugins = {
     "folke/tokyonight.nvim",
     -- add any other plugins here
+    "petertriho/nvim-scrollbar",
+    "kevinhwang91/nvim-hlslens",
+    "lewis6991/gitsigns.nvim",
 }
 require("lazy").setup(plugins, {
     root = root .. "/plugins",
@@ -29,3 +32,6 @@ require("lazy").setup(plugins, {
 vim.cmd.colorscheme("tokyonight")
 -- add anything else here
 vim.opt.ambiwidth = "double"
+require("scrollbar").setup({})
+require("scrollbar.handlers.search").setup({})
+require("scrollbar.handlers.gitsigns").setup({})
