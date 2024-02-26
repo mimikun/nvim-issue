@@ -1,4 +1,4 @@
-std = "vim+nyagos"
+std = "vim"
 
 [lints]
 global_usage = "allow"
