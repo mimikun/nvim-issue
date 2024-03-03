@@ -17,7 +17,11 @@ vim.opt.runtimepath:prepend(lazypath)
 local plugins = {
     "folke/tokyonight.nvim",
     -- add any other plugins here
-    "uga-rosa/ccc.nvim",
+    {
+        "uga-rosa/ccc.nvim",
+        -- v0.7
+        commit = "392ef0640b96684e88b3965f32f3bc42530f66c3",
+    },
     "neovim/nvim-lspconfig",
     "nvimdev/lspsaga.nvim",
     "nvim-treesitter/nvim-treesitter",
