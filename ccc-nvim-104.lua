@@ -89,7 +89,7 @@ local lsp_servers = {
 
 local null_ls_sources = {
     -- Code Actions
-    null_ls.builtins.code_actions.gitsigns,
+    --null_ls.builtins.code_actions.gitsigns,
     -- Completion
     -- Diagnostics
     null_ls.builtins.diagnostics.actionlint,
