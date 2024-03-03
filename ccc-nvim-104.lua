@@ -20,7 +20,7 @@ local plugins = {
     {
         "uga-rosa/ccc.nvim",
         -- v0.7
-        commit = "392ef0640b96684e88b3965f32f3bc42530f66c3",
+        --commit = "392ef0640b96684e88b3965f32f3bc42530f66c3",
     },
     "neovim/nvim-lspconfig",
     "nvimdev/lspsaga.nvim",
